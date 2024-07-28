@@ -1,0 +1,51 @@
+[
+    {
+        "timestamp": "11/02/24, 02:33 PM",
+        "action": "Create",
+        "entity": "Admin",
+        "details": "Admin user Roshann Agarwal with the role Tenant Admin was created",
+        "performed_by": "Fletcher Fernandes"
+    },
+    {
+        "timestamp": "11/02/24, 01:52 PM",
+        "action": "Create",
+        "entity": "Firewall Rule",
+        "details": "A firewall rule allowing traffic from IP addresses to be accepted was created.",
+        "performed_by": "Sachin Gowda"
+    },
+    {
+        "timestamp": "11/02/24, 01:23 PM",
+        "action": "Download",
+        "entity": "Router Certificate",
+        "details": "Certificate downloaded for router Tranquil Sea.",
+        "performed_by": "Mukesh Sai Kumar"
+    },
+    {
+        "timestamp": "11/02/24, 01:11 PM",
+        "action": "Delete",
+        "entity": "Hotspot User",
+        "details": "Hotspot user JohnDoe was deleted from router Mianzimu (HCQ083QNSNF).",
+        "performed_by": "Vishal Dubey"
+    },
+    {
+        "timestamp": "11/02/24, 01:01 PM",
+        "action": "Delete",
+        "entity": "Firewall Template",
+        "details": "Firewall template Dualog was deleted",
+        "performed_by": "Vishal Dubey"
+    },
+    {
+        "timestamp": "11/02/24, 12:58 PM",
+        "action": "Create",
+        "entity": "Router",
+        "details": "New router RUDRA23 (FF044QNSNF) was created",
+        "performed_by": "Karan Sajnani"
+    },
+    {
+        "timestamp": "11/02/24, 12:58 PM",
+        "action": "Update",
+        "entity": "Router",
+        "details": "New router RUDRA23 (FF044QNSNF) was created",
+        "performed_by": "Karan Sajnani"
+    }
+]

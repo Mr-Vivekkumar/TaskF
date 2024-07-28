@@ -1,0 +1,32 @@
+{
+    "data": [
+        {
+            "date": "05 Mar",
+            "usage": 1000
+        },
+        {
+            "date": "06 Mar",
+            "usage": 1100
+        },
+        {
+            "date": "07 Mar",
+            "usage": 1200
+        },
+        {
+            "date": "08 Mar",
+            "usage": 1150
+        },
+        {
+            "date": "09 Mar",
+            "usage": 1300
+        },
+        {
+            "date": "10 Mar",
+            "usage": 1200
+        },
+        {
+            "date": "11 Mar",
+            "usage": 650
+        }
+    ]
+}

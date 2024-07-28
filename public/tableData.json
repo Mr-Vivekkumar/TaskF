@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "no": 1,
+            "name": "RUDRA",
+            "dataUsage": "22.4 GB"
+        },
+        {
+            "no": 2,
+            "name": "Vashi Office",
+            "dataUsage": "34.5 GB"
+        },
+        {
+            "no": 3,
+            "name": "Station Satcom",
+            "dataUsage": "64.2 GB"
+        },
+        {
+            "no": 4,
+            "name": "Eastway",
+            "dataUsage": "13.2 GB"
+        },
+        {
+            "no": 5,
+            "name": "NPDL",
+            "dataUsage": "76.2 GB"
+        }
+    ]
+}
