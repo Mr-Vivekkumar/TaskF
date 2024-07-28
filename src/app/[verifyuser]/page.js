@@ -7,8 +7,8 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 const ParamPage = () => {
     const params = useParams();
-    const [data,setData] = useState("")
-    const param = params.verifyuser; 
+    const [data, setData] = useState("")
+    const param = params.verifyuser;
     useEffect(() => {
         if (param) {
             const registerUserQuery = {
@@ -18,11 +18,12 @@ const ParamPage = () => {
                   }
                 `,
                 variables: {
-                verifytoken: param
+                    verifytoken: param
                 }
-              };
+            };
             axios.post(
-                'http://localhost:4000/graphql',
+                // 'http://localhost:4000/graphql',
+                'https://taskb.onrender.com/graphql',
                 registerUserQuery,
                 {
                     headers: {
@@ -35,7 +36,7 @@ const ParamPage = () => {
                         setData(response?.data?.data?.verifyUser)
                         setTimeout(() => {
                             window.location.replace("/")
-                        },3000)
+                        }, 3000)
                     }
                 })
                 .catch(error => {

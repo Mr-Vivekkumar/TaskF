@@ -24,7 +24,8 @@ const ForgotPassword = (props) => {
     };
 
     axios.post(
-      'http://localhost:4000/graphql',
+      // 'http://localhost:4000/graphql',
+      'https://taskb.onrender.com/graphql',
       sendOtpQuery,
       {
         headers: {
@@ -71,7 +72,8 @@ const ForgotPassword = (props) => {
     };
 
     axios.post(
-      'http://localhost:4000/graphql',
+      // 'http://localhost:4000/graphql',
+      'https://taskb.onrender.com/graphql',
       resetPasswordQuery,
       {
         headers: {
